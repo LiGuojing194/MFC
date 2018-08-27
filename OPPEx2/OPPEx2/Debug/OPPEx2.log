@@ -1,0 +1,16 @@
+﻿生成启动时间为 2017/11/8 21:50:16。
+     1>项目“D:\study\studylanguage\cpluspluscode\OPPEx2\OPPEx2\OPPEx2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\allkindsofsoftware\VS2013_RTM_ULT_CHS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\OPPEx2.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OPPEx2Dlg.cpp
+         OPPEx2Dlg.cpp
+       Link:
+         D:\allkindsofsoftware\VS2013_RTM_ULT_CHS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study\studylanguage\cpluspluscode\OPPEx2\Debug\OPPEx2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program Files\opencv\build\x86\vc12\lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\allkindsofsoftware\VS2013_RTM_ULT_CHS\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"D:\study\studylanguage\cpluspluscode\OPPEx2\Debug\OPPEx2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\study\studylanguage\cpluspluscode\OPPEx2\Debug\OPPEx2.lib" /MACHINE:X86 Debug\OPPEx2.res
+         Debug\OPPEx2.obj
+         Debug\OPPEx2Dlg.obj
+         Debug\stdafx.obj
+         OPPEx2.vcxproj -> D:\study\studylanguage\cpluspluscode\OPPEx2\Debug\OPPEx2.exe
+     1>已完成生成项目“D:\study\studylanguage\cpluspluscode\OPPEx2\OPPEx2\OPPEx2.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.38

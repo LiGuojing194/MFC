@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: First232 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/First232.res" /d "_DEBUG" "D:\mfc视频教程\第二章\First232\First232.rc"" 
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSPAAF1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/First232.pdb" /debug /machine:I386 /out:"Debug/First232.exe" /pdbtype:sept 
+".\Debug\First232.obj"
+".\Debug\StdAfx.obj"
+".\Debug\First232.res"
+]
+Creating command line "link.exe @"C:\Users\李国菁\AppData\Local\Temp\RSPAAF1.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+First232.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

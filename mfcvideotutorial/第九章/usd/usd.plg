@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: usd - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSP2F18.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/usd.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\mfc视频教程\第九章\usd\RegDlg.cpp"
+]
+Creating command line "cl.exe @"C:\Users\李国菁\AppData\Local\Temp\RSP2F18.tmp"" 
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSP2F19.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/usd.pdb" /debug /machine:I386 /out:"Debug/usd.exe" /pdbtype:sept 
+".\Debug\ModDlg.obj"
+".\Debug\Page1.obj"
+".\Debug\Page2.obj"
+".\Debug\Page3.obj"
+".\Debug\RegDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\usd.obj"
+".\Debug\usdDlg.obj"
+".\Debug\usd.res"
+]
+Creating command line "link.exe @"C:\Users\李国菁\AppData\Local\Temp\RSP2F19.tmp""
+<h3>Output Window</h3>
+Compiling...
+RegDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+usd.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

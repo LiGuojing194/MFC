@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: QQ - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSP92EE.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/QQ.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MFC视频教程\第五章\QQ\login.cpp"
+]
+Creating command line "cl.exe @"C:\Users\李国菁\AppData\Local\Temp\RSP92EE.tmp"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/QQ.pdb" /debug /machine:I386 /out:"Debug/QQ.exe" /pdbtype:sept  ".\Debug\login.obj" ".\Debug\PriorDlg.obj" ".\Debug\QQ.obj" ".\Debug\QQDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\QQ.res" "
+<h3>Output Window</h3>
+Compiling...
+login.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/QQ.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\login.sbr" ".\Debug\PriorDlg.sbr" ".\Debug\QQ.sbr" ".\Debug\QQDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+QQ.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

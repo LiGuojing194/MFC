@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Si - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'D:\mfc视频教程\第十章\Si\res\__TemplateIcon.ico'
+
+Creating command line "rc.exe /l 0x804 /fo"Debug/Si.res" /d "_DEBUG" "D:\mfc视频教程\第十章\Si\Si.rc"" 
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSPF44D.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Si.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\mfc视频教程\第十章\Si\Si.cpp"
+"D:\mfc视频教程\第十章\Si\SiDlg.cpp"
+]
+Creating command line "cl.exe @"C:\Users\李国菁\AppData\Local\Temp\RSPF44D.tmp"" 
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSPF44E.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Si.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\mfc视频教程\第十章\Si\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\Users\李国菁\AppData\Local\Temp\RSPF44E.tmp"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Si.pdb" /debug /machine:I386 /out:"Debug/Si.exe" /pdbtype:sept  ".\Debug\Si.obj" ".\Debug\SiDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\Si.res" "
+<h3>Output Window</h3>
+Compiling resources...
+D:\mfc视频教程\第十章\Si\Si.rc (70): error RC2176 : old DIB in res\china.ico; pass it through SDKPAINT
+
+
+
+
+
+
+执行 rc.exe 时出错.
+
+
+
+<h3>Results</h3>
+Si.exe - 1 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

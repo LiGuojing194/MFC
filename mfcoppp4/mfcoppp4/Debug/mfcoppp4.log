@@ -1,0 +1,17 @@
+﻿生成启动时间为 2017/11/14 23:53:31。
+     1>项目“D:\study\studylanguage\cpluspluscode\mfcoppp4\mfcoppp4\mfcoppp4.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\allkindsofsoftware\VS2013_RTM_ULT_CHS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\mfcoppp4.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt mfcoppp4Dlg.cpp
+         mfcoppp4Dlg.cpp
+       Link:
+         D:\allkindsofsoftware\VS2013_RTM_ULT_CHS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study\studylanguage\cpluspluscode\mfcoppp4\Debug\mfcoppp4.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program Files\opencv\build\x86\vc12\lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\allkindsofsoftware\VS2013_RTM_ULT_CHS\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"D:\study\studylanguage\cpluspluscode\mfcoppp4\Debug\mfcoppp4.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\study\studylanguage\cpluspluscode\mfcoppp4\Debug\mfcoppp4.lib" /MACHINE:X86 Debug\mfcoppp4.res
+         Debug\mfcoppp4.obj
+         Debug\mfcoppp4Dlg.obj
+         Debug\stdafx.obj
+         Debug\Student.obj
+         mfcoppp4.vcxproj -> D:\study\studylanguage\cpluspluscode\mfcoppp4\Debug\mfcoppp4.exe
+     1>已完成生成项目“D:\study\studylanguage\cpluspluscode\mfcoppp4\mfcoppp4\mfcoppp4.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.03

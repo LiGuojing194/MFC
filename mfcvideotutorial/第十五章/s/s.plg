@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: s - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/s.res" /d "_DEBUG" "D:\MFC视频教程\第十五章\s\s.rc"" 
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSPAB22.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/s.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MFC视频教程\第十五章\s\ClientSocket.cpp"
+"D:\MFC视频教程\第十五章\s\ListenSocket.cpp"
+"D:\MFC视频教程\第十五章\s\s.cpp"
+"D:\MFC视频教程\第十五章\s\sDlg.cpp"
+]
+Creating command line "cl.exe @"C:\Users\李国菁\AppData\Local\Temp\RSPAB22.tmp"" 
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSPAB23.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/s.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MFC视频教程\第十五章\s\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\Users\李国菁\AppData\Local\Temp\RSPAB23.tmp"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/s.pdb" /debug /machine:I386 /out:"Debug/s.exe" /pdbtype:sept  ".\Debug\ClientSocket.obj" ".\Debug\ListenSocket.obj" ".\Debug\s.obj" ".\Debug\sDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\s.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ClientSocket.cpp
+ListenSocket.cpp
+s.cpp
+sDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+s.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,250 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\refrectMFC.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\refrectMFC.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_REFRECTMFC_DIALOG DIALOGEX 0, 0, 320, 185
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "每日反省"
+FONT 12, "宋体"
+BEGIN
+    PUSHBUTTON      "Start",IDC_START,0,0,24,15,0,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_DATE,97,1,113,14,ES_AUTOHSCROLL | ES_READONLY,
+                    WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    LTEXT           "1.今天读英语了吗？",IDC_STATIC,7,15,86,14
+    CONTROL         "Yes",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,153,15,28,
+                    10
+    CONTROL         "No",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,210,15,24,10
+    LTEXT           "2.今天读日语了吗？",IDC_STATIC,7,29,73,8
+    CONTROL         "Yes",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,153,29,28,
+                    10
+    CONTROL         "No",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,210,29,24,10
+    LTEXT           "3.预习好明天的课了吗？",IDC_STATIC,7,44,89,8
+    CONTROL         "Yes",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,153,44,28,
+                    10
+    CONTROL         "No",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,210,44,24,10
+    LTEXT           "4.完成今天的必做作业了吗？",IDC_STATIC,7,58,105,8
+    CONTROL         "Yes",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,153,58,28,
+                    10
+    CONTROL         "No",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,210,58,24,10
+    LTEXT           "5.今天是否全身心地投入学习中？",IDC_STATIC,7,74,121,8
+    CONTROL         "Yes",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON,153,74,28,
+                    10
+    CONTROL         "No",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON,210,74,24,
+                    10
+    LTEXT           "你认为今天怎么样？",IDC_STATIC,7,96,73,8
+    EDITTEXT        IDC_FELL,153,90,160,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    LTEXT           "今天最后悔的一件事",IDC_STATIC,7,112,73,8
+    EDITTEXT        IDC_REGRET,153,104,160,16,ES_AUTOHSCROLL,
+                    WS_EX_STATICEDGE
+    LTEXT           "明日期望：",IDC_STATIC,7,126,41,8
+    EDITTEXT        IDC_HOPE,153,120,160,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    LTEXT           "亲爱的自己，晚安！明天，加油！美梦，我来啦！！！",
+                    IDC_STATIC,69,149,195,9
+    DEFPUSHBUTTON   "Finish",IDOK,128,166,50,14,0,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 178, 68
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "每日反省用户登录"
+FONT 16, "宋体"
+BEGIN
+    LTEXT           "你的追求是：",IDC_STATIC,56,7,63,10
+    EDITTEXT        IDC_LOGIN,39,21,81,12,ES_PASSWORD | ES_AUTOHSCROLL,
+                    WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "登录",IDOK,20,46,50,14
+    PUSHBUTTON      "退出",IDCANCEL,96,47,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "refrectMFC Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "refrectMFC\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2017\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "refrectMFC.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "refrectMFC 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_REFRECTMFC_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        VERTGUIDE, 49
+        VERTGUIDE, 153
+        VERTGUIDE, 210
+        VERTGUIDE, 250
+        VERTGUIDE, 264
+        BOTTOMMARGIN, 181
+        HORZGUIDE, 15
+        HORZGUIDE, 29
+        HORZGUIDE, 44
+        HORZGUIDE, 58
+        HORZGUIDE, 74
+        HORZGUIDE, 89
+        HORZGUIDE, 104
+        HORZGUIDE, 120
+        HORZGUIDE, 134
+        HORZGUIDE, 149
+        HORZGUIDE, 173
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 171
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\refrectMFC.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

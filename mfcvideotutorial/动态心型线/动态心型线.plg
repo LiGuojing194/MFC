@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 动态心型线 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSP95C2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/动态心型线.pdb" /debug /machine:I386 /out:"Debug/动态心型线.exe" /pdbtype:sept 
+".\Debug\Page1.obj"
+".\Debug\Page2.obj"
+".\Debug\RegDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\动态心型线.obj"
+".\Debug\动态心型线Dlg.obj"
+".\Debug\动态心型线.res"
+]
+Creating command line "link.exe @"C:\Users\李国菁\AppData\Local\Temp\RSP95C2.tmp""
+<h3>Output Window</h3>
+Linking...
+LINK : LNK6004: Debug/动态心型线.exe not found or not built by the last incremental link; performing full link
+
+
+
+<h3>Results</h3>
+动态心型线.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

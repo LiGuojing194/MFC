@@ -1,0 +1,225 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\vd.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\vd.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_VD_DIALOG DIALOGEX 0, 0, 320, 200
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "vd"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "工号：",IDC_STATIC,7,7,25,8
+    EDITTEXT        IDC_NUMB,34,7,40,14,ES_AUTOHSCROLL
+    LTEXT           "性别：",IDC_STATIC,85,12,25,8
+    CONTROL         "男",IDC_SEX,"Button",BS_AUTORADIOBUTTON | WS_GROUP,119,
+                    13,24,10
+    CONTROL         "女",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,156,13,24,10
+    GROUPBOX        "学历",IDC_STATIC,194,7,53,80
+    CONTROL         "高中",IDC_EDUCATION,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,199,18,32,10
+    CONTROL         "大学",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,199,37,32,
+                    10
+    CONTROL         "硕士",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,199,56,32,
+                    10
+    CONTROL         "博士",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,199,75,32,
+                    10
+    GROUPBOX        "外语",IDC_STATIC,253,7,53,80
+    LTEXT           "姓名:",IDC_STATIC,7,35,21,8
+    EDITTEXT        IDC_NAME,31,34,40,14,ES_AUTOHSCROLL
+    LTEXT           "入职时间：",IDC_STATIC,74,35,41,8
+    PUSHBUTTON      "添加",IDC_ADD,7,76,50,14,BS_ICON | BS_LEFT | BS_BOTTOM,
+                    WS_EX_ACCEPTFILES
+    PUSHBUTTON      "删除",IDC_DEL,62,76,50,14,BS_BITMAP
+    PUSHBUTTON      "修改",IDC_MOD,120,76,50,14
+    CONTROL         "List3",IDC_LIST,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,7,98,306,95
+    CONTROL         "DateTimePicker1",IDC_JOIN,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,117,33,72,14
+    CONTROL         "日语",IDC_JAPA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    257,39,32,10
+    CONTROL         "英语",IDC_ENGL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    257,21,32,10
+    CONTROL         "韩语",IDC_KOREA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    257,57,32,10
+    CONTROL         "俄语",IDC_RUSS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    257,75,32,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "vd Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "vd\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2017\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "vd.EXE\0"
+            VALUE "ProductName", "vd 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_VD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+        HORZGUIDE, 80
+        HORZGUIDE, 85
+        HORZGUIDE, 90
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR  DISCARDABLE     "res\\cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\007.bmp"
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\vd.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

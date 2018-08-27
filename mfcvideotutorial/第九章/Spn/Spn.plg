@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Spn - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Spn.res" /d "_DEBUG" "D:\mfc视频教程\第九章\Spn\Spn.rc"" 
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSPC2AA.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Spn.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\mfc视频教程\第九章\Spn\Spn.cpp"
+"D:\mfc视频教程\第九章\Spn\SpnDlg.cpp"
+]
+Creating command line "cl.exe @"C:\Users\李国菁\AppData\Local\Temp\RSPC2AA.tmp"" 
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSPC2BA.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Spn.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\mfc视频教程\第九章\Spn\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\Users\李国菁\AppData\Local\Temp\RSPC2BA.tmp"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Spn.pdb" /debug /machine:I386 /out:"Debug/Spn.exe" /pdbtype:sept  ".\Debug\Spn.obj" ".\Debug\SpnDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\Spn.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Spn.cpp
+SpnDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Spn.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

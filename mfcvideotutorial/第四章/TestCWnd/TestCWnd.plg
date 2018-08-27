@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TestCWnd - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/TestCWnd.res" /d "_DEBUG" "D:\MFC视频教程\第四章\TestCWnd\TestCWnd.rc"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/TestCWnd.pdb" /debug /machine:I386 /out:"Debug/TestCWnd.exe" /pdbtype:sept  ".\Debug\StdAfx.obj" ".\Debug\TestCWnd.obj" ".\Debug\TestCWndDlg.obj" ".\Debug\TestCWnd.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+TestCWnd.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

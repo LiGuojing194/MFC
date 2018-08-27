@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vd - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSP467E.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/vd.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MFC视频教程\第六章\vd\vdDlg.cpp"
+]
+Creating command line "cl.exe @"C:\Users\李国菁\AppData\Local\Temp\RSP467E.tmp"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/vd.pdb" /debug /machine:I386 /out:"Debug/vd.exe" /pdbtype:sept  ".\Debug\StdAfx.obj" ".\Debug\vd.obj" ".\Debug\vdDlg.obj" ".\Debug\vd.res" "
+<h3>Output Window</h3>
+Compiling...
+vdDlg.cpp
+D:\MFC视频教程\第六章\vd\vdDlg.cpp(77) : error C2660: 'LoadImageA' : function does not take 2 parameters
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+vd.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

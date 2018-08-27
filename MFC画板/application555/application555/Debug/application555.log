@@ -1,0 +1,32 @@
+﻿生成启动时间为 2017/11/20 1:00:18。
+     1>项目“D:\study\studylanguage\cpluspluscode\application555\application555\application555.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\allkindsofsoftware\VS2013_RTM_ULT_CHS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\application555.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt application555.cpp application555View.cpp
+         application555View.cpp
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         application555.cpp
+       Link:
+         D:\allkindsofsoftware\VS2013_RTM_ULT_CHS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study\studylanguage\cpluspluscode\application555\Debug\application555.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program Files\opencv\build\x86\vc12\lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\allkindsofsoftware\VS2013_RTM_ULT_CHS\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"D:\study\studylanguage\cpluspluscode\application555\Debug\application555.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\study\studylanguage\cpluspluscode\application555\Debug\application555.lib" /MACHINE:X86 Debug\application555.res
+         Debug\application555.obj
+         Debug\application555Doc.obj
+         Debug\application555View.obj
+         Debug\ClassView.obj
+         Debug\Ellip.obj
+         Debug\FileView.obj
+         Debug\Layer.obj
+         Debug\Line.obj
+         Debug\MainFrm.obj
+         Debug\OutputWnd.obj
+         Debug\Pencil.obj
+         Debug\PropertiesWnd.obj
+         Debug\Rectangle.obj
+         Debug\stdafx.obj
+         Debug\ViewTree.obj
+         Debug\Width.obj
+         application555.vcxproj -> D:\study\studylanguage\cpluspluscode\application555\Debug\application555.exe
+     1>已完成生成项目“D:\study\studylanguage\cpluspluscode\application555\application555\application555.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.28

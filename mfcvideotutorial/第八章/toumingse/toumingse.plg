@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: toumingse - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSP5809.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/toumingse.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\mfc视频教程\第八章\toumingse\toumingseDlg.cpp"
+]
+Creating command line "cl.exe @"C:\Users\李国菁\AppData\Local\Temp\RSP5809.tmp"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/toumingse.pdb" /debug /machine:I386 /out:"Debug/toumingse.exe" /pdbtype:sept  ".\Debug\toumingse.obj" ".\Debug\toumingseDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\toumingse.res" "
+<h3>Output Window</h3>
+Compiling...
+toumingseDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+toumingse.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

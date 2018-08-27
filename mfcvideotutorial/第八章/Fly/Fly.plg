@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Fly - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSP3129.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Fly.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\mfc视频教程\第八章\Fly\FlyDlg.cpp"
+]
+Creating command line "cl.exe @"C:\Users\李国菁\AppData\Local\Temp\RSP3129.tmp"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Fly.pdb" /debug /machine:I386 /out:"Debug/Fly.exe" /pdbtype:sept  ".\Debug\Fly.obj" ".\Debug\FlyDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\Fly.res" "
+<h3>Output Window</h3>
+Compiling...
+FlyDlg.cpp
+d:\mfc视频教程\第八章\fly\memdc.h(110) : warning C4183: 'CMenDC': member function definition looks like a ctor, but name does not match enclosing class
+Linking...
+
+
+
+<h3>Results</h3>
+Fly.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ly - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSPAF1.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Ly.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\mfc视频教程\第八章\Ly\Ellip1.cpp"
+"D:\mfc视频教程\第八章\Ly\Layer.cpp"
+"D:\mfc视频教程\第八章\Ly\Line.cpp"
+]
+Creating command line "cl.exe @"C:\Users\李国菁\AppData\Local\Temp\RSPAF1.tmp"" 
+Creating temporary file "C:\Users\李国菁\AppData\Local\Temp\RSPAF2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Ly.pdb" /debug /machine:I386 /out:"Debug/Ly.exe" /pdbtype:sept 
+".\Debug\Ellip1.obj"
+".\Debug\Layer.obj"
+".\Debug\Line.obj"
+".\Debug\Ly.obj"
+".\Debug\LyDoc.obj"
+".\Debug\LyView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Ly.res"
+]
+Creating command line "link.exe @"C:\Users\李国菁\AppData\Local\Temp\RSPAF2.tmp""
+<h3>Output Window</h3>
+Compiling...
+Ellip1.cpp
+d:\mfc视频教程\第八章\ly\ellip1.h(30) : error C2523: '__unnamed::~CEllip' : destructor tag mismatch
+d:\mfc视频教程\第八章\ly\ellip1.h(32) : error C2627: member function defined in unnamed class
+d:\mfc视频教程\第八章\ly\ellip1.h(32) : warning C4094: untagged 'class' declared no symbols
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(19) : error C2653: 'CEllip' : is not a class or namespace name
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(21) : error C2065: 'm_rect' : undeclared identifier
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(21) : error C2228: left of '.SetRect' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(24) : warning C4508: 'CEllip' : function should return a value; 'void' return type assumed
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(26) : error C2653: 'CEllip' : is not a class or namespace name
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(27) : error C2084: function 'int __cdecl CEllip(void)' already has a body
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(30) : error C2653: 'CEllip' : is not a class or namespace name
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(32) : error C2228: left of '.left' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(33) : error C2228: left of '.top' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(36) : error C2653: 'CEllip' : is not a class or namespace name
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(42) : error C2228: left of '.right' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(46) : error C2228: left of '.right' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(47) : error C2228: left of '.bottom' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(50) : error C2653: 'CEllip' : is not a class or namespace name
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(52) : error C2228: left of '.right' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(53) : error C2228: left of '.bottom' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(54) : error C2228: left of '.NormalizeRect' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(56) : error C2653: 'CEllip' : is not a class or namespace name
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(59) : error C2065: 'm_nStatus' : undeclared identifier
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(61) : error C2228: left of '.left' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(61) : error C2228: left of '.top' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(62) : error C2228: left of '.right' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(62) : error C2228: left of '.top' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(63) : error C2228: left of '.left' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(63) : error C2228: left of '.bottom' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(64) : error C2228: left of '.right' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(64) : error C2228: left of '.bottom' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(68) : error C2653: 'CEllip' : is not a class or namespace name
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(70) : error C2228: left of '.PtInRect' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(76) : error C2653: 'CEllip' : is not a class or namespace name
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(78) : error C2228: left of '.OffsetRect' must have class/struct/union type
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(80) : error C2653: 'CEllip' : is not a class or namespace name
+D:\mfc视频教程\第八章\Ly\Ellip1.cpp(82) : error C2228: left of '.PtInRect' must have class/struct/union type
+Layer.cpp
+d:\mfc视频教程\第八章\ly\ellip1.h(30) : error C2523: '__unnamed::~CEllip' : destructor tag mismatch
+d:\mfc视频教程\第八章\ly\ellip1.h(32) : error C2627: member function defined in unnamed class
+d:\mfc视频教程\第八章\ly\ellip1.h(32) : warning C4094: untagged 'class' declared no symbols
+Line.cpp
+D:\mfc视频教程\第八章\Ly\Line.cpp(51) : error C2143: syntax error : missing ';' before 'tag::id'
+D:\mfc视频教程\第八章\Ly\Line.cpp(51) : error C2501: 'bvoid' : missing storage-class or type specifiers
+D:\mfc视频教程\第八章\Ly\Line.cpp(51) : fatal error C1004: unexpected end of file found
+Generating Code...
+执行 cl.exe 时出错.
+Creating command line "bscmake.exe /nologo /o"Debug/Ly.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Ellip1.sbr" ".\Debug\Layer.sbr" ".\Debug\Line.sbr" ".\Debug\Ly.sbr" ".\Debug\LyDoc.sbr" ".\Debug\LyView.sbr" ".\Debug\MainFrm.sbr""
+Creating browse info file...
+BSCMAKE: error BK1506 : cannot open file '.\Debug\Line.sbr': No such file or directory
+执行 bscmake.exe 时出错.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Ly.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
